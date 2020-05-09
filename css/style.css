@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #2d2d2d;
+    text-align: center;
+}
+
+.card-heading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0fbcf9;
+    text-transform: uppercase;
+    transition: .4s linear;
+    text-shadow: 0px 0px 100px #000000;
+}
+
+.portfolio-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    width: 20%;
+    overflow: hidden;
+    color: #0fbcf9;
+    margin-left: 100px;
+    text-align: center;
+    transition: .3s linear;
+    box-shadow: 0px 0px 100px #000000;
+}
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #0fbcf9;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    transition: .4s linear;
+    text-transform: uppercase;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #0fbcf9;
+    color: #ffffff;
+    border: 2px solid #0fbcf9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-link {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: left;
+    background-color: #0fbcf9;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 0px 100px #000000;
+    transition: .4s linear;
+}
+.card-link:hover {
+    width: 90px;
+    height: 90px;
+    transition: .4s linear;
+}
+.card-link img:hover {
+    width: 90px;
+    height: 90px;
+    transition: .42 linear;
+}
+.card:hover {
+    color: #ffffff;
+    background-color: #0fbcf9;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #0fbcf9;
+    background-color: #ffffff;
+    transition: .3s linear;
+}
